@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kasir</title>
+  </head>
+  <body>
+    <div>
+      <h1>Daftar Barang</h1>
+      <table border="1">
+        <tr>
+          <th>Kode</th>
+          <th>Barang</th>
+          <th>Harga</th>
+        </tr>
+        <tr>
+          <td>001</td>
+          <td>Barang A</td>
+          <td>10.000</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Barang B</td>
+          <td>20.000</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Barang C</td>
+          <td>30.000</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h1>Inputan User</h1>
+      <table border="1">
+        <tr>
+          <td>Masukkan Kode</td>
+          <td>:</td>
+          <td>
+            <input type="number" id="kodeBarang">
+          </td>
+        </tr>
+        <tr>
+          <td>Banyaknya Barang</td>
+          <td>:</td>
+          <td>
+            <input type="number" id="jumlahBarang">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button onclick="totalBeli()">Submit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
